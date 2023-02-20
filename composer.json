@@ -1,0 +1,22 @@
+{
+    "name": "ecommerce/php",
+    "description": "Projeto de ecomerce com php e mysql para melhorar meus conhecimentos em php",
+    "type": "project",
+    "license": "dev",
+    "autoload": {
+        "psr-4": {
+            "": "vendor\\Ecomerce\\php-classes\\src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pedro Augusto Pereira"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer" : "5.2.22",
+        "slim/slim" : "2.0",
+        "rain/raintpl" : "3.0.0"
+    }
+}
