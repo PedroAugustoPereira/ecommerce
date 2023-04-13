@@ -5,7 +5,11 @@
     "license": "dev",
     "autoload": {
         "psr-4": {
-            "": "vendor\\Ecomerce\\php-classes\\src"
+            "Sql\\": "vendor\\classes\\Sql",
+            "Page\\": "vendor\\classes",
+            "PageAdmin\\": "vendor\\classes",
+            "User\\": "vendor\\classes\\Models",
+            "Model\\": "vendor\\classes\\Models"
         }
     },
     "authors": [
@@ -16,7 +20,13 @@
     "minimum-stability": "dev",
     "require": {
         "phpmailer/phpmailer" : "5.2.22",
-        "slim/slim" : "2.0",
-        "rain/raintpl" : "3.0.0"
+        "slim/slim" : "4.x-dev",
+        "rain/raintpl" : "3.0.0",
+        "vlucas/phpdotenv": "^5.5@dev",
+        "nyholm/psr7": "^1.5",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-xml": "*",
+        "slim/psr7": "dev-master"
     }
 }
